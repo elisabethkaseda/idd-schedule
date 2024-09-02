@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --red: #CA1F45;
+    --medium: #0B7A75;
+    --light: #D7C9AA;
+    --lightest: #F0F3F5;
+    --dark: #19535F;
+    --text: "Barlow", sans-serif;
+}
+/* Colors I'm using: https://coolors.co/ca1f45-19535f-0b7a75-d7c9aa-f0f3f5*/
+
+/* Basic Styling */
+
+body {
+    background-color: var(--light);
+    color: var(--dark);
+    font-family: var(--text);
+    font-weight: 500;
+}
+
+/* Making the spacing work for the different sections of the site. */
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+header {
+    padding: 30px 0;
+    background-color: var(--red);
+    color: var(--lightest);
+}
+
+nav {
+    padding: 10px;
+    background-color: var(--dark);
+    color: var(--lightest);
+    text-align: center;
+}
+
+main {
+    padding: 10px 40px;
+    background-color: var(--lightest);
+}
+
+footer {
+    padding: 10px 0;
+    background-color: var(--dark);
+    color: var(--lightest);
+}
+
+footer > p {
+    text-align: center;
+}
+
+/* Some more fun styling stuff. */
+
+h1 {
+    text-align: center;
+    font-weight: 900;
+}
+
+h2 {
+    padding: 24px 0 12px 0;
+    font-weight: 800;
+    color: var(--medium);
+}
+
+a {
+    margin: 0 30px;
+    color: var(--light);
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+li {
+    margin: 4px 0;
+}
+
+p {
+    line-height: 1.5;
+}
