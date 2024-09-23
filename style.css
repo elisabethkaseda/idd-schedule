@@ -90,3 +90,11 @@ li {
 p {
     line-height: 1.5;
 }
+
+.news {
+    margin-bottom: 1rem;
+}
+
+.archive {
+    margin-bottom: 1.5rem;
+}
